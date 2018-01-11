@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"Vishnu commit");
+    NSLog(@"pavan commit" );
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -33,7 +33,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"Second Commit");
     self.numberLbl.userInteractionEnabled =YES;
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(numberClick)];
     tap.numberOfTapsRequired = 1;
